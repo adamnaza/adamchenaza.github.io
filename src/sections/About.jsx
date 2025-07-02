@@ -33,9 +33,36 @@ const About = () => {
                         <div className=" rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
 
                         </div>
-                    </div>
+                    </div>      
 
                 </div>
+
+                <div className = "col-span1 xl:row-span-3">
+                    <div className="grid-container"> 
+                        <h3 className="grid-headtext"> College Life</h3>
+                        <p className='grid-subtext'> progress </p>
+                    </div>
+                </div>
+
+                <div className = "col-span-1 xl:row-span-3">
+                    <div className="grid-container">
+                        <h3 className="grid-headtext"> My Journey </h3>
+                        <p className="grid-subtext"> From a curious student to a passionate developer </p>
+                    </div>
+                </div>
+
+                <div className="col-span-1 xl:row-span-2">
+                    <div className="grid-container">
+                        <h3 className= "grid-headtext"> Certifications </h3>
+                        <p className = "grid-subtext"> </p>
+                    </div>
+                </div>
+
+                <div>
+                    
+                </div>
+
+
             </div>
         </section>
     )
